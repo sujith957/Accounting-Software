@@ -1,0 +1,172 @@
+.page-filter-body {
+    padding-bottom: 50px;
+}
+
+.page-title {
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+.filter-card,
+.table-card {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-color);
+}
+
+.filter-card .form-label {
+    color: var(--text-color);
+}
+
+.filter-card .form-control,
+.filter-card .form-select {
+    background: var(--input-bg) !important;
+    color: var(--text-color) !important;
+    border-color: var(--input-border) !important;
+}
+
+.filter-card .form-control::placeholder {
+    color: var(--secondary-text) !important;
+}
+
+.table-card table {
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+
+}
+
+.table-card .table {
+    --bs-table-bg: var(--card-bg);
+    --bs-table-color: var(--text-color);
+    --bs-table-border-color: var(--border-color);
+
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+}
+
+.table-card thead th {
+    color: var(--text-color);
+    background: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.table-card tbody td {
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.table-card tbody tr:hover {
+    background: var(--hover-bg);
+}
+
+.voucher-number-wrapper {
+    position: relative;
+    min-height: 40px;
+}
+
+.voucher-number {
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+
+
+.table-actions {
+    display: none;
+    margin-top: 3px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.voucher-number-wrapper:hover .table-actions {
+    display: block;
+}
+
+.table-actions a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.table-actions span {
+    color: #999;
+    margin: 0 4px;
+}
+
+.action-view {
+    color: #a1a5ab !important;
+}
+
+.action-edit {
+    color: #a1a5ab !important;
+}
+
+.action-delete {
+    color: #dc3545 !important;
+}
+
+.action-view:hover,
+.action-edit:hover,
+.action-delete:hover {
+    text-decoration: underline;
+}
+
+.table-card table thead {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.table-card table thead th {
+    border-bottom: 1px solid var(--border-color) !important;
+    font-weight: 600;
+    color: var(--text-color);
+    white-space: nowrap;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.badge-success {
+    background: #dff5e8;
+    color: #198754;
+}
+
+.badge-warning {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.badge-danger {
+    background: #f8d7da;
+    color: #842029;
+}
+
+.badge-secondary {
+    background: #e2e3e5;
+    color: #41464b;
+}
+
+body.dark-mode .badge-success {
+    background: #164d32;
+    color: #75e0a3;
+}
+
+body.dark-mode .badge-warning {
+    background: #594b16;
+    color: #ffe083;
+}
+
+body.dark-mode .badge-danger {
+    background: #5c1f25;
+    color: #ff8c96;
+}
+
+body.dark-mode .badge-secondary {
+    background: #3a3f44;
+    color: #d5d9dd;
+}
